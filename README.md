@@ -10,6 +10,7 @@ Chat Application
    - **Confidentiality**
       * The chat messages can be secured using **AES (128 bit)** or **DES (64 bit)** (depending upon the user's choice) using a secret key.
       * The secret key is secured using **RSA** which can only be decrypted by the receiver.
+      * Everything is stored in a database.
 
    - **Integrity**
       * Hash of the encrypted message is generated using **MD-5** of 128 bit which is concatenated with the encrypted message.
